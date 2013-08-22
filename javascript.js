@@ -26,7 +26,7 @@
 				userdata.name = fullname.value;
 				
 			}
-			document.addEventListener('click', getname);
+			document.addEventListener('blur', getname);
 
 			//sends users input email to consol
 		var email = document.getElementById('email');
@@ -34,7 +34,7 @@
 				userdata.email = email.value;
 				
 			}
-			document.addEventListener('click', getemail);
+			document.addEventListener('blur', getemail);
 
 
 		
